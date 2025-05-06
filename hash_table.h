@@ -22,7 +22,7 @@ typedef struct {
 } HashTable;
 
 long long word_to_hash(const char *s);
-void create_HT(HashTable *ht);
+HashTable *create_HT();
 void delete_HT(HashTable *ht);
 void insert_HT(HashTable *ht, HashEntry *e);
 void print_HT(HashTable *ht);
