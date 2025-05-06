@@ -65,7 +65,7 @@ que reinciar el equipo.
 
 ### 2. Instalar MinGW
 Haciendo uso de Chocolatey, instalamos MinGW ejecutando el sigueinte
-comando desde la terminal como administrador:
+comando desde la terminal como _administrador_:
 
 ```
 choco install mingw -y
