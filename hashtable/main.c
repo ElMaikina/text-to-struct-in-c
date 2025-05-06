@@ -32,7 +32,6 @@ int main(int argc, char *argv[]) {
 		// Valor Hash de la palabra actual
 		hash = word_to_hash(input_char);
 
-
 		HashEntry entry;
         entry.word = strdup(input_char);
         entry.length = strlen(input_char);
